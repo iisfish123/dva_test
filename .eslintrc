@@ -1,0 +1,57 @@
+{
+  "parser": "babel-eslint",
+  "extends": "umi",
+  "rules": {
+    "no-unused-vars": [0],
+    "arrow-body-style": [0],
+    "consistent-return": [0],
+    "no-console": [0],
+    "generator-star-spacing": [0],
+    "global-require": [1],
+    "import/extensions": [0],
+    "import/no-extraneous-dependencies": [0],
+    "import/no-unresolved": [0],
+    "import/prefer-default-export": [0],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "linebreak-style": [0],
+    "max-len": [1, 180],
+    "no-bitwise": [0],
+    "no-cond-assign": [0],
+    "no-else-return": [0],
+    "no-extend-native": [0],
+    "no-param-reassign": [0],
+    "no-nested-ternary": [0],
+    "no-restricted-syntax": [0],
+    "no-unused-expressions": [0],
+    "no-use-before-define": [0],
+    "prefer-const": [0],
+    "react/forbid-prop-types": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "react/jsx-no-bind": [0],
+    "react/prefer-stateless-function": [0],
+    "react/prop-types": [0],
+    "require-yield": [1],
+    "semi": [0],
+    "prefer-template": [0], // 李可政加的，\src\models\order\product_order\product_order_detail_print_model.js   ${x}
+    "operator-assignment": [0], // 李可政加的，\src\models\order\product_order\product_order_detail_print_model.js  x += a => x = x+a
+    "no-plusplus": [0], // 李可政加的，\src\models\order\product_order\product_order_detail_print_model.js   i++
+    "quotes": [1, "single"], // 李可政加的，\src\models\order\product_order\common\yd_batch_print_model.js   处理单双引号""和''
+    "spaced-comment": [0],
+    "keyword-spacing": [0],
+    "no-multi-spaces": [0],
+    "no-trailing-spaces": [0],
+    "key-spacing": [0],
+    "pace-before-function-paren": [0]
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "globals": {
+    "window": true,
+    "location": true,
+    "localStorage": true,
+    "document": true
+  }
+}
